@@ -18,28 +18,28 @@
 A Discord Display makes persistent information in Eco visible in Discord.  
 It does this by regularly (once every ~60 seconds) fetching information from the Eco server and sending/editing a message in Discord to keep the Display up to date. Some events in Eco will also update displays related to those events.  
 
-### Server info{#server-info}
+### Server info
 
 Displays a single message that contains customizable information about the server such as name, connection info, online players, active laws and more.  
 ![Server Info Display](https://github.com/Eco-DiscordLink/EcoDiscordPlugin/raw/develop/images/features/displays/serverInfo.png)
 
-### Player List{#player-list}
+### Player List
 
 Displays a single message that contains the list of currently online players.  
 ![Player List Display](https://github.com/Eco-DiscordLink/EcoDiscordPlugin/raw/develop/images/features/displays/playerList.png)
 
-### Work Parties{#work-parties}
+### Work Parties
 
 Displays one message per work party, containing information about the status of that work party.  
 ![Work Party Display](https://github.com/Eco-DiscordLink/EcoDiscordPlugin/raw/develop/images/features/displays/workParty.png)
 
-### Elections{#elections}
+### Elections
 
 Displays one message per election, containing information about the status of that election.  
 Note that in the case of a non-boolean election, only the highest ranked option will be listed for each player in the votes.  
 ![Election Display](https://github.com/Eco-DiscordLink/EcoDiscordPlugin/raw/develop/images/features/displays/elections.png)
 
-### Currencies{#currencies}
+### Currencies
 
 Displays one message per existing currency up to a configurable limit and ordered by the amount of trades made in the currency during the current cycle.
 For each currency, a configurable amount of users holding the highest amounts of the currency will be shown.
@@ -47,30 +47,30 @@ Can be configured to only show minted or credit currencies based on the existanc
 
 ![Currency Display](https://github.com/Eco-DiscordLink/EcoDiscordPlugin/raw/develop/images/features/displays/currencies.png)
 
-## Feeds{#feeds}
+## Feeds
 ---
 A Feed will output information from Eco into Discord (or vice versa) as it becomes available.
 
-### Chat{#chat}
+### Chat
 Sends Discord messages to Eco and vice versa. Can be configured to only feed messages one way.  
 ![Chat Feed](https://github.com/Eco-DiscordLink/EcoDiscordPlugin/raw/develop/images/features/feeds/chat.png)
 
-### Trade{#trade}
+### Trade
 
 Displays trade events in Discord as they occur in Eco.  
 ![Trade Feed](https://github.com/Eco-DiscordLink/EcoDiscordPlugin/raw/develop/images/features/feeds/trade.png)
 
-### Crafting{#crafting}
+### Crafting
 
 Displays crafting events in Discord as they occur in Eco.  
 ![Crafting Feed](https://github.com/Eco-DiscordLink/EcoDiscordPlugin/raw/develop/images/features/feeds/crafting.png)
 
-## Inputs{#inputs}
+## Inputs
 ---
 An Input is a source of information in Eco or Discord that can be utilized in commands or other features.  
 **Note**: The range for how far in the Discord message history Input messages can be found is limited.
 
-### Snippets{#snippets}
+### Snippets
 
 Snippets are messages posted in Discord that can be reposted in Eco using the /Snippet command.  
 
