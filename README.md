@@ -13,7 +13,7 @@
 * [Inputs](#inputs)
     * [Snippets](#snippets)
 
-## Displays{#displays}
+## Displays
 ---
 A Discord Display makes persistent information in Eco visible in Discord.  
 It does this by regularly (once every ~60 seconds) fetching information from the Eco server and sending/editing a message in Discord to keep the Display up to date. Some events in Eco will also update displays related to those events.  
